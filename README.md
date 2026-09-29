@@ -70,7 +70,6 @@ DVLD-People-Images/
 - Windows Forms
 - ADO.NET
 - Microsoft SQL Server
-- T-SQL
 - 3-Tier Architecture
 - Object-Oriented Programming (OOP)
 - Visual Studio
