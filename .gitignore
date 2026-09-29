@@ -1,0 +1,39 @@
+# Visual Studio
+.vs/
+**/.vs/
+
+# Build output
+bin/
+obj/
+**/bin/
+**/obj/
+
+# User-specific files
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# NuGet
+packages/
+*.nupkg
+
+# Logs
+*.log
+
+# Database files / backups
+*.mdf
+*.ldf
+*.bak
+
+# Real person images
+DVLD-People-Images/*
+!DVLD-People-Images/.gitkeep
+
+# Setup build output
+DVLDSetup/Debug/
+DVLDSetup/Release/
+
+# Installer icon
+Icons/*
+!Icons/car.ico
