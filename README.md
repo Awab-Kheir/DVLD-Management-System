@@ -232,4 +232,30 @@ Course material was used as a learning and reference resource while implementing
 
 ## Screenshots
 
-Application screenshots will be added to this repository to demonstrate the main workflows and user interface.
+### Login
+
+![DVLD Login](screenshots/01-login.png)
+
+### Main Dashboard — Dark Mode
+
+![DVLD Main Dashboard Dark Mode](screenshots/02-main-dashboard-dark.png)
+
+### Main Dashboard — Light Mode
+
+![DVLD Main Dashboard Light Mode](screenshots/03-main-dashboard-light.png)
+
+### People Management
+
+![DVLD People Management](screenshots/04-manage-people.png)
+
+### New Local Driving License Application
+
+![DVLD New Local Driving License Application](screenshots/05-new-local-driving-license-application.png)
+
+### Written Test Appointments
+
+![DVLD Written Test Appointments](screenshots/06-written-test-appointments.png)
+
+### Driver License Information
+
+![DVLD Driver License Information](screenshots/07-driver-license-info.png)
