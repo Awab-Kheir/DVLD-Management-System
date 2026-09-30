@@ -21,11 +21,13 @@ using DVLD.Applications.ReplaceLostOrDamagedLicense;
 using DVLD.Licenses.Detain_License;
 using DVLD.Applications.Release_Detained_License;
 using DVLD.Properties;
+using DVLD.Global_Classes;   //  مشان الوان الفورمز تتفير II
 
 namespace DVLD
 {
     public partial class frmMain : Form
-    {
+    {  
+
         frmLogin _frmLogin;
         private bool _isDarkTheme = true;   // II
         public frmMain(frmLogin frm)
@@ -35,6 +37,11 @@ namespace DVLD
 
             //II
             ApplyDarkTheme();
+            //II
+            lblTitle.Parent = pictureBox1;
+            lblTitle.BackColor = Color.Transparent;
+            lblTitle.BringToFront();
+            lblSupTitle.Parent = pictureBox1;
         }
 
         //II
@@ -68,7 +75,13 @@ namespace DVLD
             lblLoggedInUser.ForeColor = Color.White;
             lblLoggedInUser.BackColor = Color.FromArgb(31, 31, 31);
             btnChangeTheme.BackColor = Color.FromArgb(31, 31, 31);
-            pictureBox1.Image = Resources.vecteezy_ai_generated;
+            pictureBox1.Image = Resources.vecteezy_ai_generated;        
+
+            //  مشان الوان الفورمز تتفير II
+            ThemeManager.SetDarkMode();
+
+            lblTitle.ForeColor = Color.FromArgb(224, 224, 224);
+            lblSupTitle.ForeColor = Color.DarkGray;
 
         }
         //II
@@ -86,7 +99,13 @@ namespace DVLD
             lblLoggedInUser.ForeColor = Color.Black;
             lblLoggedInUser.BackColor = Color.White;
             btnChangeTheme.BackColor = Color.White;
-            pictureBox1.Image = Resources.wallpaper;
+            pictureBox1.Image = Resources.vecteezy_electric_car_small;
+
+            //  مشان الوان الفورمز تتفير II
+            ThemeManager.SetLightMode();
+
+            lblTitle.ForeColor = Color.LightSkyBlue;
+            lblSupTitle.ForeColor = Color.SteelBlue;
 
         }
         //II

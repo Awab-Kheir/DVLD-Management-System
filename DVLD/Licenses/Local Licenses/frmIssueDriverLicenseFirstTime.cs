@@ -78,6 +78,7 @@ namespace DVLD.Licenses.Local_Licenses
             {
                 MessageBox.Show("License Issued Successfully with License ID = " + LicenseID.ToString(), "Succeeded", MessageBoxButtons.OK, MessageBoxIcon.Information);
                 this.Close();
+                //ctrlDrivingLicenseApplicationInfo1.LinkLicenseEnable = true;   II
             }
             else
             {

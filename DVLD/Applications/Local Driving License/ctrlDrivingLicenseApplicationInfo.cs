@@ -28,6 +28,20 @@ namespace DVLD.Applications.Local_Driving_License     // #    //   DVLD.Controls
 
         }
 
+        /****************/     //  II
+
+        //private bool _LinkEnabled = true;
+        //public bool LinkLicenseEnable
+        //{
+        //    get { return _LinkEnabled; }
+        //    set 
+        //    {
+        //        _LinkEnabled = value;
+        //        llShowLicenseInfo.Enabled = _LinkEnabled;
+        //    }
+        //}
+        /****************/
+
         public ctrlDrivingLicenseApplicationInfo()
         {
             InitializeComponent();

@@ -122,6 +122,7 @@
             // 
             // cbFilterBy
             // 
+            this.cbFilterBy.BackColor = System.Drawing.Color.White;
             this.cbFilterBy.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.cbFilterBy.FormattingEnabled = true;
             this.cbFilterBy.Items.AddRange(new object[] {
@@ -157,6 +158,7 @@
             // 
             // txtFilterValue
             // 
+            this.txtFilterValue.BackColor = System.Drawing.Color.White;
             this.txtFilterValue.Location = new System.Drawing.Point(319, 293);
             this.txtFilterValue.Name = "txtFilterValue";
             this.txtFilterValue.Size = new System.Drawing.Size(256, 26);

@@ -1,4 +1,5 @@
-﻿using DVLD.Login;
+﻿using DVLD.Global_Classes;
+using DVLD.Login;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -18,6 +19,15 @@ namespace DVLD
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
             //Application.Run(new frmMain());
+            /*********/
+            //  مشان الوان الفورمز تتفير II
+            Application.Idle += (sender, e) =>
+            {
+                ThemeManager.ApplyThemeToOpenForms();
+            };
+            /*********/
+
+
             Application.Run(new frmLogin());
         }
     }

@@ -119,6 +119,7 @@
       <DependentUpon>frmListDriver.cs</DependentUpon>
     </Compile>
     <Compile Include="Global Classes\clsFormat.cs" />
+    <Compile Include="Global Classes\ThemeManager.cs" />
     <Compile Include="Licenses\Controls\ctrlDriverLicenses.cs">
       <SubType>UserControl</SubType>
     </Compile>
@@ -818,6 +819,15 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\moon-and-stars.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\vecteezy_electric-car.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\vecteezy_ai-generated2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\vecteezy_electric-car-small.jpg" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

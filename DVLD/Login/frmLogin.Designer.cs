@@ -61,9 +61,9 @@
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold);
-            this.label1.Location = new System.Drawing.Point(88, 81);
+            this.label1.Location = new System.Drawing.Point(131, 81);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(294, 31);
+            this.label1.Size = new System.Drawing.Size(240, 25);
             this.label1.TabIndex = 3;
             this.label1.Text = "Login to your account";
             // 
@@ -73,7 +73,7 @@
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.Location = new System.Drawing.Point(18, 161);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(117, 25);
+            this.label2.Size = new System.Drawing.Size(96, 20);
             this.label2.TabIndex = 4;
             this.label2.Text = "Username:";
             // 
@@ -83,7 +83,7 @@
             this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label3.Location = new System.Drawing.Point(18, 197);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(113, 25);
+            this.label3.Size = new System.Drawing.Size(91, 20);
             this.label3.TabIndex = 5;
             this.label3.Text = "Password:";
             // 
@@ -92,7 +92,7 @@
             this.txtUserName.Location = new System.Drawing.Point(174, 161);
             this.txtUserName.MaxLength = 50;
             this.txtUserName.Name = "txtUserName";
-            this.txtUserName.Size = new System.Drawing.Size(214, 30);
+            this.txtUserName.Size = new System.Drawing.Size(214, 26);
             this.txtUserName.TabIndex = 6;
             // 
             // txtPassword
@@ -100,7 +100,7 @@
             this.txtPassword.Location = new System.Drawing.Point(174, 195);
             this.txtPassword.MaxLength = 50;
             this.txtPassword.Name = "txtPassword";
-            this.txtPassword.Size = new System.Drawing.Size(214, 30);
+            this.txtPassword.Size = new System.Drawing.Size(214, 26);
             this.txtPassword.TabIndex = 7;
             this.txtPassword.TextChanged += new System.EventHandler(this.txtPassword_TextChanged);
             this.txtPassword.Enter += new System.EventHandler(this.txtPassword_Enter);
@@ -112,7 +112,7 @@
             this.chkRememberMe.CheckState = System.Windows.Forms.CheckState.Checked;
             this.chkRememberMe.Location = new System.Drawing.Point(174, 229);
             this.chkRememberMe.Name = "chkRememberMe";
-            this.chkRememberMe.Size = new System.Drawing.Size(167, 29);
+            this.chkRememberMe.Size = new System.Drawing.Size(137, 24);
             this.chkRememberMe.TabIndex = 10;
             this.chkRememberMe.Text = "Remember Me.";
             this.chkRememberMe.UseVisualStyleBackColor = true;
@@ -165,7 +165,7 @@
             this.label8.Location = new System.Drawing.Point(147, 406);
             this.label8.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(122, 25);
+            this.label8.Size = new System.Drawing.Size(100, 20);
             this.label8.TabIndex = 16;
             this.label8.Text = "Version 1.0";
             // 
@@ -205,10 +205,11 @@
             // lblDateTime
             // 
             this.lblDateTime.AutoSize = true;
+            this.lblDateTime.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblDateTime.ForeColor = System.Drawing.Color.White;
             this.lblDateTime.Location = new System.Drawing.Point(1, 2);
             this.lblDateTime.Name = "lblDateTime";
-            this.lblDateTime.Size = new System.Drawing.Size(56, 25);
+            this.lblDateTime.Size = new System.Drawing.Size(57, 24);
             this.lblDateTime.TabIndex = 13;
             this.lblDateTime.Text = "Time";
             // 
@@ -241,6 +242,7 @@
             // 
             // btnLogin
             // 
+            this.btnLogin.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
             this.btnLogin.DialogResult = System.Windows.Forms.DialogResult.Cancel;
             this.btnLogin.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.btnLogin.Image = global::DVLD.Properties.Resources.sign_in_32;
@@ -250,7 +252,7 @@
             this.btnLogin.Size = new System.Drawing.Size(126, 37);
             this.btnLogin.TabIndex = 11;
             this.btnLogin.Text = "Login";
-            this.btnLogin.UseVisualStyleBackColor = true;
+            this.btnLogin.UseVisualStyleBackColor = false;
             this.btnLogin.Click += new System.EventHandler(this.btnLogin_Click);
             // 
             // btnClose
@@ -295,7 +297,7 @@
             // frmLogin
             // 
             this.AcceptButton = this.btnLogin;
-            this.AutoScaleDimensions = new System.Drawing.SizeF(12F, 25F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.DimGray;
             this.CancelButton = this.btnClose;

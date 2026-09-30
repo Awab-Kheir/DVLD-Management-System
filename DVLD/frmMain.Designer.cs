@@ -30,8 +30,6 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmMain));
             this.msMainMenue = new System.Windows.Forms.MenuStrip();
-            this.lblLoggedInUser = new System.Windows.Forms.Label();
-            this.btnChangeTheme = new System.Windows.Forms.Button();
             this.servicesToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.drivingLicensesServiceToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.newDrivingLicenseToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
@@ -62,6 +60,10 @@
             this.changePasswordToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.toolStripMenuItem1 = new System.Windows.Forms.ToolStripSeparator();
             this.signOUtToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.lblLoggedInUser = new System.Windows.Forms.Label();
+            this.lblTitle = new System.Windows.Forms.Label();
+            this.lblSupTitle = new System.Windows.Forms.Label();
+            this.btnChangeTheme = new System.Windows.Forms.Button();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.msMainMenue.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
@@ -84,31 +86,6 @@
             this.msMainMenue.Size = new System.Drawing.Size(1924, 72);
             this.msMainMenue.TabIndex = 1;
             this.msMainMenue.Text = "menuStrip1";
-            // 
-            // lblLoggedInUser
-            // 
-            this.lblLoggedInUser.AutoSize = true;
-            this.lblLoggedInUser.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(31)))), ((int)(((byte)(31)))), ((int)(((byte)(31)))));
-            this.lblLoggedInUser.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblLoggedInUser.ForeColor = System.Drawing.Color.White;
-            this.lblLoggedInUser.Location = new System.Drawing.Point(837, 52);
-            this.lblLoggedInUser.Name = "lblLoggedInUser";
-            this.lblLoggedInUser.Size = new System.Drawing.Size(51, 20);
-            this.lblLoggedInUser.TabIndex = 5;
-            this.lblLoggedInUser.Text = "label1";
-            // 
-            // btnChangeTheme
-            // 
-            this.btnChangeTheme.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(31)))), ((int)(((byte)(31)))), ((int)(((byte)(31)))));
-            this.btnChangeTheme.FlatAppearance.BorderSize = 0;
-            this.btnChangeTheme.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnChangeTheme.Image = global::DVLD.Properties.Resources.moon_and_stars;
-            this.btnChangeTheme.Location = new System.Drawing.Point(1456, 2);
-            this.btnChangeTheme.Name = "btnChangeTheme";
-            this.btnChangeTheme.Size = new System.Drawing.Size(94, 70);
-            this.btnChangeTheme.TabIndex = 7;
-            this.btnChangeTheme.UseVisualStyleBackColor = false;
-            this.btnChangeTheme.Click += new System.EventHandler(this.btnChangeTheme_Click);
             // 
             // servicesToolStripMenuItem
             // 
@@ -396,6 +373,55 @@
             this.signOUtToolStripMenuItem.Text = "Sign &Out";
             this.signOUtToolStripMenuItem.Click += new System.EventHandler(this.signOUtToolStripMenuItem_Click);
             // 
+            // lblLoggedInUser
+            // 
+            this.lblLoggedInUser.AutoSize = true;
+            this.lblLoggedInUser.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(31)))), ((int)(((byte)(31)))), ((int)(((byte)(31)))));
+            this.lblLoggedInUser.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblLoggedInUser.ForeColor = System.Drawing.Color.White;
+            this.lblLoggedInUser.Location = new System.Drawing.Point(837, 52);
+            this.lblLoggedInUser.Name = "lblLoggedInUser";
+            this.lblLoggedInUser.Size = new System.Drawing.Size(51, 20);
+            this.lblLoggedInUser.TabIndex = 5;
+            this.lblLoggedInUser.Text = "label1";
+            // 
+            // lblTitle
+            // 
+            this.lblTitle.AutoSize = true;
+            this.lblTitle.BackColor = System.Drawing.Color.Transparent;
+            this.lblTitle.Font = new System.Drawing.Font("Microsoft Sans Serif", 50F, System.Drawing.FontStyle.Bold);
+            this.lblTitle.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
+            this.lblTitle.Location = new System.Drawing.Point(656, 346);
+            this.lblTitle.Name = "lblTitle";
+            this.lblTitle.Size = new System.Drawing.Size(214, 76);
+            this.lblTitle.TabIndex = 9;
+            this.lblTitle.Text = "DVLD";
+            // 
+            // lblSupTitle
+            // 
+            this.lblSupTitle.AutoSize = true;
+            this.lblSupTitle.BackColor = System.Drawing.Color.Transparent;
+            this.lblSupTitle.Font = new System.Drawing.Font("Microsoft Sans Serif", 35F, System.Drawing.FontStyle.Bold);
+            this.lblSupTitle.ForeColor = System.Drawing.Color.DarkGray;
+            this.lblSupTitle.Location = new System.Drawing.Point(255, 429);
+            this.lblSupTitle.Name = "lblSupTitle";
+            this.lblSupTitle.Size = new System.Drawing.Size(1016, 54);
+            this.lblSupTitle.TabIndex = 10;
+            this.lblSupTitle.Text = "DRIVING LICENSE MANAGEMENT SYSTEM";
+            // 
+            // btnChangeTheme
+            // 
+            this.btnChangeTheme.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(31)))), ((int)(((byte)(31)))), ((int)(((byte)(31)))));
+            this.btnChangeTheme.FlatAppearance.BorderSize = 0;
+            this.btnChangeTheme.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnChangeTheme.Image = global::DVLD.Properties.Resources.moon_and_stars;
+            this.btnChangeTheme.Location = new System.Drawing.Point(1456, 2);
+            this.btnChangeTheme.Name = "btnChangeTheme";
+            this.btnChangeTheme.Size = new System.Drawing.Size(94, 70);
+            this.btnChangeTheme.TabIndex = 7;
+            this.btnChangeTheme.UseVisualStyleBackColor = false;
+            this.btnChangeTheme.Click += new System.EventHandler(this.btnChangeTheme_Click);
+            // 
             // pictureBox1
             // 
             this.pictureBox1.BackColor = System.Drawing.Color.Black;
@@ -417,6 +443,8 @@
             this.BackColor = System.Drawing.Color.White;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
             this.ClientSize = new System.Drawing.Size(1924, 1055);
+            this.Controls.Add(this.lblSupTitle);
+            this.Controls.Add(this.lblTitle);
             this.Controls.Add(this.btnChangeTheme);
             this.Controls.Add(this.lblLoggedInUser);
             this.Controls.Add(this.msMainMenue);
@@ -476,6 +504,8 @@
         private System.Windows.Forms.ToolStripMenuItem releaseDetainedLicenseToolStripMenuItem;
         private System.Windows.Forms.Label lblLoggedInUser;
         private System.Windows.Forms.Button btnChangeTheme;
+        private System.Windows.Forms.Label lblTitle;
+        private System.Windows.Forms.Label lblSupTitle;
     }
 }
 
